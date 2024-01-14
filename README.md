@@ -1,14 +1,33 @@
-# \lambda_2
-This repository contains a sample implementation of using CatBoost for building a surrogate model for transformation temperatures of Shape Memory Alloys (SMAs). The sample code (found in [main.py](main.py)) showcases how CatBoost can be used to model this data and make predictions with a high degree of accuracy. The accompanying [raw_data.csv](raw_data.csv) file contains raw data points that can be used to train and validate the model. This data can also serve as a reference for researchers looking to explore the use of CatBoost in this particular field.
+# Phase Compatibility Model for NiTi Shape Memory Alloys
 
-# Getting Started
-To run the sample code, you will need to have CatBoost installed in your environment. The code was tested using version 1.0.6 of CatBoost. If you do not have it installed, you can follow the instructions [here](https://catboost.ai/en/docs/concepts/installation) to install it. Other necessary packages are: [NumPy](https://numpy.org/install/), [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html), [CBFV](https://github.com/kaaiian/CBFV), and [scikit-learn](https://scikit-learn.org/stable/install.html).
+This repository is dedicated to NiTi Shape Memory Alloys (SMAs) and offers comprehensive tools and models for researchers and engineers. Key features include:
+
+- Functionality for Parameter Calculation: Enables the computation of $\lambda_1$, $\lambda_2$, and $\lambda_3$ parameters in NiTi SMAs.
+- Compositional Feature Analysis: Tools to calculate various compositional features (e.g., jarvis_avg_first_ion_en_divi_voro_coord, jarvis_dev_mol_vol, hea_Delta).
+- Transformation Prediction Model: An innovative model to estimate $\lambda_2$ values and predict the type of phase transformation (B2 to B19 or B19') in NiTi SMAs, based exclusively on their composition.
+- Extensive Dataset: Includes lattice parameter, thermodynamic response, and a range of other relevant features for NiTi SMAs, accessible in [data.csv](data.csv)
+
+<!-- 
+This repository provides:
+-  The necessary functions to calculate the $\lambda_1$, $\lambda_2$, and $\lambda_3$ parameters in NiTi Shape Memory Alloys (SMAs)
+- The necessary functions to calculate related compositional features ( such as jarvis_avg_first_ion_en_divi_voro_coord, jarvis_dev_mol_vol, hea_Delta, etc)
+- A model to estimate $\lambda_2$ values of given NiTi SMA, and predict type of transformation (B2 to B19 or B19'), solely based on the composition
+- Lattice parameter, thermodynamic response, and several related feature data for NiTi SMAs [data.csv](data.csv) -->
+
+# Getting Started with the Repository
+
+To utilize the sample code effectively, the following are required:
+- [Python 3](https://www.python.org/downloads/)
+- [NumPy](https://numpy.org/install/)
+- [pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
+- [CBFV](https://github.com/kaaiian/CBFV)
+- [HEACalculator](https://github.com/dogusariturk/HEACalculator)
+
 
 # Usage
-- Clone this repository
-- Open the main.py file in your preferred Python environment
-- Run the code to train and validate the model
-# Citing
-If you use this code or the accompanying data set, please cite the original paper. This will ensure proper recognition of the work that has gone into this repository and help further the research in this field.
+Explore the sample codes provided in [main.ipynb](main.ipynb) to get started with the application of the model and tools.
 
-> S.H. Zadeh, A. Behbahanian, J. Broucek, M. Fan, G. Vazquez, M. Noroozi, W. Trehern, X. Qian, I. Karaman, R. Arroyave, An interpretable boosting-based predictive model for transformation temperatures of shape memory alloys, Comput. Mater. Sci. 226 (2023) 112225. https://doi.org/10.1016/j.commatsci.2023.112225.
+# Citing
+If this code or the accompanying dataset proves beneficial for your research or work, please cite our original paper. Acknowledging this source helps promote further research in this field and recognizes the efforts invested in this repository.
+
+> 
