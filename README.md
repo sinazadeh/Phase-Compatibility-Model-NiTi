@@ -7,12 +7,6 @@ This repository is dedicated to NiTi Shape Memory Alloys (SMAs) and offers compr
 - Transformation Prediction Model: An innovative model to estimate $\lambda_2$ values and predict the type of phase transformation (B2 to B19 or B19') in NiTi SMAs, based exclusively on their composition.
 - Extensive Dataset: Includes lattice parameter, thermodynamic response, and a range of other relevant features for NiTi SMAs, accessible in [data.csv](data.csv)
 
-<!-- 
-This repository provides:
--  The necessary functions to calculate the $\lambda_1$, $\lambda_2$, and $\lambda_3$ parameters in NiTi Shape Memory Alloys (SMAs)
-- The necessary functions to calculate related compositional features ( such as jarvis_avg_first_ion_en_divi_voro_coord, jarvis_dev_mol_vol, hea_Delta, etc)
-- A model to estimate $\lambda_2$ values of given NiTi SMA, and predict type of transformation (B2 to B19 or B19'), solely based on the composition
-- Lattice parameter, thermodynamic response, and several related feature data for NiTi SMAs [data.csv](data.csv) -->
 
 # Getting Started with the Repository
 
