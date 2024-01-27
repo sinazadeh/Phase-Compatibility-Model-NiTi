@@ -1,4 +1,4 @@
-# Phase Compatibility Model for NiTi Shape Memory Alloys
+## Phase Compatibility Model for NiTi Shape Memory Alloys
 
 This repository is dedicated to NiTi Shape Memory Alloys (SMAs) and offers comprehensive tools and models for researchers and engineers. Key features include:
 
