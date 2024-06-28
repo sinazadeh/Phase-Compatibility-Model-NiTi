@@ -25,4 +25,4 @@ Explore the sample codes provided in [main.ipynb](main.ipynb) to get started wit
 
 If this code or the accompanying dataset proves beneficial for your research or work, please cite our original paper. Acknowledging this source helps promote further research in this field and recognizes the efforts invested in this repository.
 
-> Zadeh, Sina Hossein, et al. "Data-driven study of composition-dependent phase compatibility in NiTi shape memory alloys." Materials & Design (2024): 113096. https://doi.org/10.1016/j.matdes.2024.113096
+> S. Hossein Zadeh, C. Cakirhan, D. Khatamsaz, J. Broucek, T.D. Brown, X. Qian, I. Karaman, R. Arroyave, Data-driven study of composition-dependent phase compatibility in NiTi shape memory alloys, Mater. Des. 244 (2024) 113096. https://doi.org/10.1016/j.matdes.2024.113096.
